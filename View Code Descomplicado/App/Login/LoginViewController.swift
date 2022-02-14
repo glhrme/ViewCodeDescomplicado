@@ -43,7 +43,7 @@ extension LoginViewController: UITextFieldDelegate {
 
 extension LoginViewController: LoginViewScreenDelegate {
     func actionLoginButton() {
-        print("action button")
+        self.loginScreen?.emailTextField.text
     }
 }
 
